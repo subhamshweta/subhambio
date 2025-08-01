@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham Shweta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .header {
+            margin-bottom: 3rem;
+        }
+
+        .name {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #888888;
+            margin-bottom: 1rem;
+        }
+
+        .initials {
+            width: 40px;
+            height: 40px;
+            background: #333333;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+
+        .section-content {
+            color: #cccccc;
+            line-height: 1.7;
+        }
+
+        .work-item {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #222222;
+        }
+
+        .work-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .company-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .company-logo {
+            width: 24px;
+            height: 24px;
+            background: #333333;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.7rem;
+        }
+
+        .company-name {
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .work-period {
+            color: #888888;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .work-title {
+            color: #ffffff;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .work-description {
+            color: #cccccc;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            color: #cccccc;
+        }
+
+        .skill {
+            font-size: 0.95rem;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .social-link {
+            color: #888888;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .social-link:hover {
+            color: #ffffff;
+        }
+
+        .work-link {
+            color: #888888;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .work-link:hover {
+            color: #ffffff;
+        }
+
+        .tldr {
+            color: #888888;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            .name {
+                font-size: 1.8rem;
+            }
+
+            .skills-list {
+                gap: 1rem;
+            }
+
+            .company-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="name">Hi, Subham here</h1>
+            <p class="subtitle">Designer & Developer</p>
+            <div class="initials">SS</div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">About</h2>
+            <p class="tldr">tldr; doing a lot of stuff online.</p>
+            <div class="section-content">
+                <p>hey, subham this side, I'm 21 years old doing a lot of stuff online, i do design and code sometimes.</p>
+                <p>Love to study Non-fiction, tech, facts, etc. Also, I like music a lot.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Work</h2>
+            <div class="work-item">
+                <div class="company-header">
+                    <div class="company-logo">B</div>
+                    <span class="company-name">Design Portfolio</span>
+                </div>
+                <div class="work-period">2023 - Present</div>
+                <div class="work-title">Creative Designer</div>
+                <div class="work-description">
+                    <a href="https://www.behance.net/subhamshweta" target="_blank" class="work-link">
+                        View my design work on Behance →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-list">
+                <span class="skill">Python</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Figma</span>
+                <span class="skill">Canva</span>
+                <span class="skill">Web design</span>
+                <span class="skill">Video editing</span>
+                <span class="skill">Writing</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Connect</h2>
+            <div class="social-links">
+                <a href="https://twitter.com/subhammhere" target="_blank" class="social-link">X (Twitter)</a>
+                <a href="https://instagram.com/subhamshweta" target="_blank" class="social-link">Instagram</a>
+                <a href="https://www.linkedin.com/in/subham-shweta/" target="_blank" class="social-link">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
